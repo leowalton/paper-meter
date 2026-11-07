@@ -1,0 +1,5 @@
+{
+  "name": "paper-meter",
+  "owner": { "name": "Leo Walton" },
+  "plugins": [{ "name": "paper-meter", "source": "./" }]
+}

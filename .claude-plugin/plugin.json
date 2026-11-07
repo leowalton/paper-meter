@@ -1,0 +1,29 @@
+{
+  "name": "paper-meter",
+  "version": "0.2.3",
+  "description": "Counts Paper (paper.design) MCP tool calls over a rolling 7 days and shows them in a band above the prompt",
+  "author": { "name": "Leo Walton" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "plan": {
+      "type": "string",
+      "title": "Paper plan",
+      "description": "Sets the weekly quota: free = 100 calls, pro = 1,000,000",
+      "default": "free",
+      "options": ["free", "pro"]
+    },
+    "show": {
+      "type": "boolean",
+      "title": "Show the band",
+      "description": "Show the Paper count above the prompt",
+      "default": true
+    },
+    "color": {
+      "type": "string",
+      "title": "Band colour",
+      "description": "Hex colour for the logo and count",
+      "default": "#7BA7E9"
+    }
+  }
+}
