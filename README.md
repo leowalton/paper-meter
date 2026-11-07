@@ -4,6 +4,10 @@ A Claude Code mod that counts your [Paper](https://paper.design) MCP tool calls
 and shows the weekly total in a band above the prompt, so you can see the
 quota coming before Paper cuts you off.
 
+![paper-meter counting Paper calls in a Claude Code session, up to the weekly limit](assets/demo.gif)
+
+<sub>[Watch the full-quality video](assets/demo.mp4) · the band in your terminal:</sub>
+
 ```
 ⣮⡽⠇ Paper 42 / 100 this week ▰▰▰▱▱▱▱▱
 ```
